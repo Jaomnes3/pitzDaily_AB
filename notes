@@ -1,0 +1,7 @@
+Change in approach.
+Make use of the backwardsFacingStep mesh, and modify parts around it.
+The scale of the channel happened to be similar to that of the orifice 
+channel model we've been using, making this a suitable alterative.
+
+The problem is how we would process values that accumulate on along walls.
+
