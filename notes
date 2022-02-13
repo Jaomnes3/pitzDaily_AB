@@ -5,3 +5,14 @@ channel model we've been using, making this a suitable alterative.
 
 The problem is how we would process values that accumulate on along walls.
 
+2/13
+The blockMeshDict file for the orifice channel was completed, and calculated without issue.
+While the x-axis grading was set by referencing the original mesh, there is no y-axis grading.
+The correct y-axis grading will be implemented once the calculations are complete.
+
+So, at this point, we have:
+1. An SST k-omega fluid dynamics simulation
+2. ...Housed in a replica of the orifice channel mesh data
+
+The next step will to design the plasma reaction solver, then to create the case files.
+
